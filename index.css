@@ -1,0 +1,73 @@
+:root{
+--cor1:#0A0E1A;
+--cor2:#1E2A38;
+--cor3:#5A6B7A;
+--cor4:#E6E6E6;
+--cor5:#7DA2C8;
+--cor6:#3A2E5E;}
+body{
+  background-image: linear-gradient(to right,#0A0E1A, #3A2E5E );
+}
+.login{
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 460px;
+  width: 300px;
+  box-shadow: 0px 0px 15px black;
+  overflow: hidden;
+}
+
+.img{
+  background-image: url(night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+height: 200px;
+  
+}
+.formu h1{
+  text-align: center;
+}
+input{
+  box-shadow: 0px 0px 5px black;
+  border: none;
+ border-radius: 10px;
+ margin-top: 10px;
+ height: 25px;
+ 
+ 
+  
+  
+  
+}
+[type="submit"]{
+  background-color: var(--cor2);
+  display: block;
+  margin: auto;
+  width: 70%;
+height: 30px;
+color: white;
+margin-bottom: 10px;
+
+}
+[type="submit"]:hover{
+  background-color: var(--cor3);
+}
+a{
+  background-color: var(--cor6);
+  border-radius: 7px;
+  
+  margin: auto;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  
+}

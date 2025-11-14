@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: linear-gradient(to right,#B02E2E, #A65A5A);
+  }
+
+  .login{
+    float: left;
+    width: 90%;
+    font-size: 1.5em;
+  }
+
+  .img {
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-image: url(hornet1.jpg);
+  }
+ .formu{
+    
+    float: left;
+  }
+  
+
+
+ input > [type="submit"] {
+    float: left;
+    overflow: hidden;
+    
+    background-color: #B02E2E;
+    color: #fff;
+  }
+
+  [type="submit"]:hover {
+    background-color: #A65A5A;
+    float: left;
+  }
+
+  a {
+    
+    background-color: #D93B3B;
+    color: #fff;
+  }
+}
